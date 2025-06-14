@@ -2,7 +2,7 @@
 Healthcare Data Analysis & ODE Simulation Assignment Summary
 You are tasked with cleaning and analyzing anonymized patient data and simulating a basic health model:
 
-# Outlier Detection & Feature Reduction (Q1)
+# (Q1) Outlier Detection & Feature Reduction 
 
 Remove constant features using VarianceThreshold
 
@@ -10,13 +10,13 @@ Detect and remove outliers in CholesterolLevel
 
 Handle missing values
 
-# Data Visualization (Q2)
+# (Q2) Data Visualization 
 
 Box plot: BloodPressure vs. RiskCategory
 
 Count plot: Patient count per RiskCategory by Region
 
-# Statistical Testing (Q3)
+# (Q3) Statistical Testing 
 
 One-sample t-test on CholesterolLevel (is mean ≠ 200 mg/dL?)
 
@@ -24,7 +24,7 @@ Chi-square test: Is there a link between Region and RiskCategory?
 
 Include hypotheses, test stats, p-values, and interpretations
 
-# ODE Health System Simulation (Q4)
+# (Q4) ODE Health System Simulation 
 
 Solve: dC/dt = k(D - C) with k=0.1, D=100, C(0)=0
 
